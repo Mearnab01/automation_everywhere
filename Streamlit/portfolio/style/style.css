@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+*{  margin: 0;
+    padding: 0;
+    transition: 0.5s ease all;
+    font-family: "Readex",sans-serif;
+}
+/* Style inputs, select elements and textareas */
+input[type=text],
+input[type=email],
+input[type=file],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: none !important;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+/* Style the submit button */
+button[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    float: left;
+}
+button[type=submit]:hover {
+    background-color: #fff;
+    color:#04AA6D;
+}
+a {
+    text-decoration: none;
+    color: white !important;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #d33682 !important;
+    text-decoration: none;
+}
+
+ul {list-style-type: none;}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 5%;
+}
+
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
